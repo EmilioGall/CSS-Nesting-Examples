@@ -8,17 +8,13 @@ main {
     background-color: lightgray;
 }
 
-p {
-    margin: 0;
-}
-
 .box {
     width: 200px;
     aspect-ratio: 1;
 }
 
 .circle {
-    width: 150px;
+    width: 80%;
     aspect-ratio: 1;
     border-radius: 50%;
 }
@@ -37,14 +33,6 @@ p {
     border: 10px solid lightcoral;
 }
 
-.border-green {
-    border: 10px solid lightgreen;
-}
-
-.border-yellow {
-    border: 10px solid lightgoldenrodyellow;
-}
-
 .border-blue {
     border: 10px solid lightskyblue;
 }
@@ -57,7 +45,7 @@ p {
 
 /* ESEMPIO SEMPLICE */
 
-/* ESEMPI CSS NATIVO */
+/* ESEMPIO CSS SENZA NESTING */
 
 header .border-red {
 
@@ -65,7 +53,7 @@ header .border-red {
 
 }
 
-/* ESEMPI NESTING */
+/* ESEMPIO CSS CON NESTING */
 
 header {
 
@@ -81,7 +69,7 @@ header {
 
 /* ESEMPIO CON SELETTORE & */
 
-/* ESEMPI CSS NATIVO */
+/* ESEMPIO CSS SENZA NESTING */
 
 .icon {
 
@@ -97,7 +85,7 @@ header {
     
 }
 
-/* ESEMPI NESTING */
+/* ESEMPIO CSS CON NESTING */
 
 .icon {
 
@@ -114,7 +102,7 @@ header {
 
 /* ESEMPIO AT-RULES */
 
-/* ESEMPI CSS NATIVO */
+/* ESEMPIO CSS SENZA NESTING */
 
 .icon {
 
@@ -138,7 +126,7 @@ header {
     
 }
 
-/* ESEMPI NESTING */
+/* ESEMPIO CSS CON NESTING */
 
 .icon {
 
