@@ -1,0 +1,159 @@
+/*** RESET ***/
+
+header {
+    background-color: lightsteelblue;
+}
+
+main {
+    background-color: lightgray;
+}
+
+p {
+    margin: 0;
+}
+
+.box {
+    width: 200px;
+    aspect-ratio: 1;
+}
+
+.circle {
+    width: 150px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+/*** FLEX TOOLS ***/
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Borders Colors */
+
+.border-red {
+    border: 10px solid lightcoral;
+}
+
+.border-green {
+    border: 10px solid lightgreen;
+}
+
+.border-yellow {
+    border: 10px solid lightgoldenrodyellow;
+}
+
+.border-blue {
+    border: 10px solid lightskyblue;
+}
+
+/* Background Colors */
+
+
+
+
+
+/* ESEMPIO SEMPLICE */
+
+/* ESEMPI CSS NATIVO */
+
+header .border-red {
+
+    border: 5px solid lightgoldenrodyellow;
+
+}
+
+/* ESEMPI NESTING */
+
+header {
+
+    .border-red {
+
+        border: 5px solid lightgoldenrodyellow;
+
+    }
+
+}
+
+
+
+/* ESEMPIO CON SELETTORE & */
+
+/* ESEMPI CSS NATIVO */
+
+.icon {
+
+    font-size: 60px;
+    color: grey;
+
+}
+
+.icon.fa-pencil {
+
+    font-size: 60px;
+    color: grey;
+    
+}
+
+/* ESEMPI NESTING */
+
+.icon {
+
+    font-size: 60px;
+    color: grey;
+
+    &.fa-pencil {
+        color: lightsalmon;
+    }
+
+}
+
+
+
+/* ESEMPIO AT-RULES */
+
+/* ESEMPI CSS NATIVO */
+
+.icon {
+
+    font-size: 60px;
+    color: grey;
+
+}
+
+.icon.fa-pencil {
+
+    font-size: 60px;
+    color: grey;
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    .icon {
+        color: lightseagreen;
+    }
+    
+}
+
+/* ESEMPI NESTING */
+
+.icon {
+
+    font-size: 60px;
+    color: grey;
+
+    &.fa-pencil {
+        color: lightsalmon;
+    }
+
+    @media screen and (max-width: 768px) {
+        
+        color: lightseagreen;
+        
+    }
+
+}
+
